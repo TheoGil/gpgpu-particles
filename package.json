@@ -1,0 +1,24 @@
+{
+  "name": "gpgpu-particles",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/three": "^0.157.2",
+    "prettier-plugin-sort-imports": "^1.7.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-glsl": "^1.1.2"
+  },
+  "dependencies": {
+    "mitt": "^3.0.1",
+    "stats-js": "^1.0.1",
+    "three": "^0.157.0",
+    "tweakpane": "^4.0.1"
+  }
+}
